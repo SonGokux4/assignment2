@@ -63,6 +63,138 @@ font-weight: 500;
 }
 /* navbar end */
 
+/* Banner */
+
+.banner{
+    background-image: url("Group 14.png");
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+    
+}
+.icon{
+    width: 24px;
+height: 24px;
+}
+.head{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.main-head{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+padding-bottom: 24px;
+}
+.banner-text p{
+    display: flex;
+    align-self: center;
+    gap: 25px;
+    margin-bottom: 17px;
+}
+
+.sign{
+    margin-top: 41px;
+padding: 21px 40px;
+
+border-radius: 48px;
+background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+border: 0;
+}
+.go{
+    border-radius: 48px;
+background: #4EC5F7;
+padding: 21px 40px;
+font-size: 20px;
+color: white;
+font-weight: 600;
+border: 0;
+margin-left: 24px;
+}
+.banner-img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-ss{
+    max-width: 100%;
+    height: auto;
+}
+
+/* banner ends */
+
+
+
+/* Online funny Games  section */
+
+
+.written{
+    margin-top: 176px;
+}
+.sec-head{
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+.linear-col{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.sec-des{
+    color: #534C64;
+text-align:center;
+font-size: 18px;
+font-weight: 400;
+padding-bottom:30px ;
+padding-top: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.third{
+    position: relative;
+    /* display: inline-block; */
+}
+.third:hover{
+    filter: brightness(50%);
+}
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+.third:hover .play-icon {
+    display: block;
+}
+.white{
+    color: white;
+}
 
 
 
@@ -82,6 +214,24 @@ font-weight: 500;
         padding: 20px;
         box-shadow: none;
     }
+    .banner{
+        flex-direction: column-reverse;
+        padding: 10px;
+        
+    }
+    .banner-ss{
+        margin-top: 150px;
+        max-width: 100%;
+        
+    }
+    .funny-games{
+        padding: 20px;
+    }
+    .images{
+        flex-direction: column;
+        text-align: center;
+    }
+    
     
 }
 
@@ -96,6 +246,21 @@ font-weight: 500;
         padding: 25px 0 0 0;
         width: 100%;
         padding-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding:20px;
+        
+    }
+    .banner-ss{
+        padding-bottom: 50px;
+        margin-top: 100px;
+        max-width: 100%;
+        
+    }
+    .images{
+        flex-wrap: wrap;
+        text-align: center;
     }
     
 }
