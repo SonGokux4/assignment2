@@ -269,9 +269,9 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    border-radius: 30px;
+    border-radius: 40px;
     flex-basis: 250px;
-    padding: 15px;
+    padding: 20px;
   }
   .game-btn:hover {
     border: 2px solid #ff42a5;
